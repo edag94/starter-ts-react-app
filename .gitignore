@@ -4,8 +4,9 @@
 # https://stackoverflow.com/questions/60184159/yarn-v2-gitignore
 .yarn/*
 !.yarn/cache
-!.yarn/releases
+!.yarn/patches
 !.yarn/plugins
+!.yarn/releases
 !.yarn/sdks
 !.yarn/versions
 /node_modules
