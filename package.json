@@ -11,8 +11,10 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/rebass": "^4.0.8",
+    "@types/react-router-dom": "^5.1.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "rebass": "^4.0.7",
     "styled-components": "^5.2.1",
@@ -23,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write src/**/*.tsx"
   },
   "browserslist": {
     "production": [
@@ -42,8 +45,7 @@
     "@typescript-eslint/parser": "^4.18.0",
     "@yarnpkg/pnpify": "^2.4.0",
     "eslint-config-prettier": "^8.1.0",
-    "prettier": "^2.2.1",
-    "react-router-dom": "^5.2.0"
+    "prettier": "^2.2.1"
   },
   "resolutions": {
     "styled-components": "^5"
